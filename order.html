@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <title>Place your order</title>
     <link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
-    <link rel="stylesheet" href="css/stylesheet.css">
+    <link rel="stylesheet" href="css/order_stylesheet.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   </head>
   <body>
@@ -18,7 +18,7 @@
       <div class="container">
         <div class="row">
           <div class="menu col s7">
-            <div class="upper-row col s12">
+            <div class="upper-row section col s12">
               <h3>Menu</h3>
               <div class="card hoverable col s5" id="upper-left">
                 <div class="card-image">
@@ -45,7 +45,7 @@
                 </div>
               </div>
             </div>
-            <div class="lower-row col s12">
+            <div class="lower-row section col s12">
               <div class="card hoverable col s5" id="lower-left">
                 <div class="card-image">
                   <img src="img/ribs.jpg">
@@ -72,15 +72,20 @@
               </div>
             </div>
           </div>
-          <div class="form-row col s4">
+          <div class="form-row col s5">
             <h3>Order</h3>
-            <table>
+            <table class="striped">
               <thead>
                 <tr>
-                  <th data-field="item">Item</th>
-                  <th data-field="price">Price</th>
+                  <th class="left" id="item-left" data-field="item">Item</th>
+                  <th class="right" id="price-right" data-field="price">Price</th>
                 </tr>
               </thead>
+              <tbody>
+                <tr>
+
+                </tr>
+              </tbody>
             </table>
           </div>
         </div>
