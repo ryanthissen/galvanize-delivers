@@ -2,17 +2,90 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Galvanize Delivers</title>
+    <title>Place your order</title>
     <link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   </head>
   <body>
     <header>
-      <nav class="nav">
-        <a href="index.html" class="container">Galvanize Delivers</a>
-        <a href="order.html" class="container">Order</a>
+      <nav class="navigation">
+        <a class="left" href="index.html">Galvanize Delivers</a>
+        <a class="right" href="order.html">Order</a>
       </nav>
     </header>
+    <body>
+      <div class="container">
+        <div class="row">
+          <div class="menu col s7">
+            <div class="upper-row col s12">
+              <h3>Menu</h3>
+              <div class="card hoverable col s5" id="upper-left">
+                <div class="card-image">
+                  <img src="img/burger.jpg">
+                </div>
+                <div class="card-content">
+                  <p class="menu-description">Royale with Cheese</p>
+                  <p class="menu-price">$8.99</p>
+                </div>
+                <div class="card-action">
+                  <a href="#">Add to order</a>
+                </div>
+              </div>
+              <div class="card hoverable col s5" id="upper-right">
+                <div class="card-image">
+                  <img src="img/pizza.jpg">
+                </div>
+                <div class="card-content">
+                  <p class="menu-description">Arugula Pie</p>
+                  <p class="menu-price">$11.99</p>
+                </div>
+                <div class="card-action">
+                  <a href="#">Add to order</a>
+                </div>
+              </div>
+            </div>
+            <div class="lower-row col s12">
+              <div class="card hoverable col s5" id="lower-left">
+                <div class="card-image">
+                  <img src="img/ribs.jpg">
+                </div>
+                <div class="card-content">
+                  <p class="menu-description">Smoked Swine</p>
+                  <p class="menu-price">$14.99</p>
+                </div>
+                <div class="card-action">
+                  <a href="#">Add to order</a>
+                </div>
+              </div>
+              <div class="card hoverable col s5" id="lower-right">
+                <div class="card-image">
+                  <img src="img/ice_cream.jpg">
+                </div>
+                <div class="card-content">
+                  <p class="menu-description">Ice Cream Biscuit</p>
+                  <p class="menu-price">$7.99</p>
+                </div>
+                <div class="card-action">
+                  <a href="#">Add to order</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="form-row col s4">
+            <h3>Order</h3>
+            <table>
+              <thead>
+                <tr>
+                  <th data-field="item">Item</th>
+                  <th data-field="price">Price</th>
+                </tr>
+              </thead>
+            </table>
+          </div>
+        </div>
+      </div>
+    </body>
 
 
 
