@@ -14,7 +14,7 @@
 }
 
 .right {
-  padding-right: 1em;
+  padding-right: 3em;
   font-size: 1.25em;
 }
 .light {
@@ -30,12 +30,4 @@
 
 .page-footer {
   color: white;
-}
-
-.card {
-  margin: 1em .75em;
-}
-
-.form-row {
-  align-items: top;
 }

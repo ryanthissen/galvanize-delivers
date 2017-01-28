@@ -1,0 +1,43 @@
+.header {
+  font-weight: bold;
+}
+
+.left {
+  padding-left: .75em;
+  font-size: 2em;
+}
+.right {
+  padding-right: 3em;
+  font-size: 1.25em;
+}
+
+#item-left {
+  font-size: 1em;
+}
+#price-right {
+  font-size: 1em;
+}
+
+.light {
+  text-align: justify;
+}
+
+.material-icons {
+  padding: 0 0.5em;
+}
+
+.li {
+  color: white;
+}
+
+.page-footer {
+  color: white;
+}
+
+.card {
+  margin: 1em 0.5em;
+}
+
+.form-row {
+  align-items: top;
+}
