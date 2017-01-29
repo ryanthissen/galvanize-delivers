@@ -14,7 +14,6 @@
         <a class="right" href="order.html">Order</a>
       </nav>
     </header>
-    <body>
       <div class="container">
         <div class="row">
           <div class="menu col s7">
@@ -28,7 +27,7 @@
                   <p class="menu-description">Royale with Cheese</p>
                   <p class="menu-price">$8.99</p>
                 </div>
-                <div class="card-action">
+                <div class="card-action burger-button">
                   <a href="#">Add to order</a>
                 </div>
               </div>
@@ -40,7 +39,7 @@
                   <p class="menu-description">Arugula Pie</p>
                   <p class="menu-price">$11.99</p>
                 </div>
-                <div class="card-action">
+                <div class="card-action pie-button">
                   <a href="#">Add to order</a>
                 </div>
               </div>
@@ -54,7 +53,7 @@
                   <p class="menu-description">Smoked Swine</p>
                   <p class="menu-price">$14.99</p>
                 </div>
-                <div class="card-action">
+                <div class="card-action swine-button">
                   <a href="#">Add to order</a>
                 </div>
               </div>
@@ -66,7 +65,7 @@
                   <p class="menu-description">Ice Cream Biscuit</p>
                   <p class="menu-price">$7.99</p>
                 </div>
-                <div class="card-action">
+                <div class="card-action biscuit-button">
                   <a href="#">Add to order</a>
                 </div>
               </div>
@@ -77,27 +76,57 @@
             <table class="striped">
               <thead>
                 <tr>
-                  <th class="left" id="item-left" data-field="item">Item</th>
-                  <th class="right" id="price-right" data-field="price">Price</th>
+                  <th id="item-left" data-field="item">Item</th>
+                  <th id="price-right" data-field="price">Price</th>
                 </tr>
               </thead>
-              <tbody>
-                <tr>
-
-                </tr>
+              <tbody class="table-body">
               </tbody>
+              <tfoot>
+                <tr>
+                  <th id="subtotal" data-field="subtotal">Subtotal</th>
+                  <th id="subtotal-amount"></th>
+                </tr>
+                <tr>
+                  <th id="tax">Tax</th>
+                  <th id="tax-amount"></th>
+                </tr>
+                <tr>
+                  <th id="total">Total</th>
+                  <th id="total-amount"></th>
+                </tr>
+              </tfoot>
             </table>
           </div>
         </div>
       </div>
-    </body>
+      <footer class="page-footer section">
+        <div class="container">
+          <div class="row">
+            <div class="col s8 m8 l8">
+              <h5>Galvanize Delivers</h5>
+              <p class="light">Fine dining.  Delivered.</p>
+            </div>
+            <div class="col s4 m4 l4">
+              <ul>
+                <li><a class="li light" href="index.html">Galvanize Delivers</a></li>
+                <br>
+                <li><a class="li light" href="order.html">Order</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="copyright-footer">
+          <div class="container made-by">
+            <p class="light">Made by: Ryan Thissen</p>
+          </div>
+        </div>
+      </footer>
 
+      <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
+      <script type="text/javascript" src="js/script.js">
 
-
-
-
-
-    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-    <script type="text/javascript" src="js/materialize.min.js"></script>
+      </script>
   </body>
 </html>
