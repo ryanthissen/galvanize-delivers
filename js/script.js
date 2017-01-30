@@ -73,7 +73,6 @@ biscuit.addEventListener("click", function() {
   tableBody.appendChild(tableRow);
   subtotal += 7.99
   return subtotalCalc(subtotal);
-
 })
 
 function subtotalCalc(subtotal) {
@@ -83,3 +82,15 @@ function subtotalCalc(subtotal) {
   taxAmount.innerText = "$" + tax.toFixed(2);
   totalAmount.innerText = "$" + total.toFixed(2);
 }
+
+let submit = document.getElementsByClassName('submit')[0].addEventListener("click", function() {
+  event.preventDefault();
+  if (subtotal === 0 || )
+  Materialize.toast('I am a toast!', 4000);
+
+
+
+
+
+
+})
