@@ -25,7 +25,6 @@ burger.addEventListener("click", function() {
   tableRow.appendChild(tabledata2);
   tableBody.appendChild(tableRow);
   subtotal += 8.99;
-  console.log(subtotal);
   return subtotalCalc(subtotal);
 })
 
