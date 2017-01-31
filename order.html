@@ -4,8 +4,8 @@
     <meta charset="utf-8">
     <title>Place your order</title>
     <link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
-    <link rel="stylesheet" href="css/order_stylesheet.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/order_stylesheet.css">
   </head>
   <body>
     <header>
@@ -98,27 +98,27 @@
               </tfoot>
             </table>
             <div class="row">
-              <form class="col s12">
-                <div class="row">
-                  <div class="input-field col s10">
+              <form class="col s12 form">
+                <div class="row ">
+                  <div class="input-field right-alert col s10">
                     <i class="material-icons prefix">account_circle</i>
-                    <input id="name" type="text" class="validate">
-                    <label for="icon_prefix">Name</label>
+                    <input id="name" type="text" class="validate" required aria-required="true">
+                    <label for="name">Name</label>
                   </div>
                   <div class="input-field col s10">
                     <i class="material-icons prefix">phone</i>
-                    <input id="telephone" type="number" class="validate">
+                    <input id="telephone" type="tel" class="validate" required aria-required="true">
                     <label for="icon_prefix">Telephone</label>
                   </div>
                   <div class="input-field col s10">
                     <i class="material-icons prefix">business</i>
-                    <input id="icon_prefix" type="text" class="validate">
+                    <input id="icon_prefix" type="text" class="validate" required aria-required="true">
                     <label for="icon_prefix">Address</label>
                   </div>
                   <br>
                   <br>
                   <div class="center section">
-                    <button class="btn submit centerwaves-effect waves-light" type="submit" name="action">Place Order
+                    <button class="btn centerwaves-effect waves-light" type="submit" >Place Order
                       <i class="material-icons right">send</i>
                     </button>
                   </div>

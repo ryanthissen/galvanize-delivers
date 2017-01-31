@@ -83,14 +83,12 @@ function subtotalCalc(subtotal) {
   totalAmount.innerText = "$" + total.toFixed(2);
 }
 
-let submit = document.getElementsByClassName('submit')[0].addEventListener("click", function() {
+let form = document.getElementsByClassName('form')[0].addEventListener("submit", function() {
   event.preventDefault();
-  if (subtotal === 0 || )
-  Materialize.toast('I am a toast!', 4000);
-
-
-
-
-
-
-})
+  if (subtotal === 0) {
+    Materialize.toast('Please add items to your cart!', 4000);
+  } else {
+    Materialize.toast('Thank you for your order.  Your food should arrive soon!', 4000)
+    setTimeout(function(){location.reload()}, 4100);
+  }
+});
